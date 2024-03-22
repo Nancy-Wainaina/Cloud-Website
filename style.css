@@ -1,0 +1,472 @@
+#navbar{
+    background-color: #0275dd;
+    height: 120px;
+}
+.nav{
+    font-weight: bold;
+    font-size: x-large;
+}
+#home{
+    text-decoration: underline;
+}
+#writings{
+    display: flex;
+    gap: 5%;
+    margin-left: 5%;
+}
+button{
+    background-color: blueviolet;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1%;
+    color: aliceblue;
+    border-radius: 16px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#car{
+    zoom: 15%;
+}
+#wheel{
+    display: flex;
+    gap: 1%;
+    margin-left: 15%;
+    margin-top: 1%;
+   
+}
+#stealth{
+    font-weight: bold;
+    font-size: xx-large;
+    color: aliceblue;
+}
+#body{
+     background-color: rgb(0,62,71);
+     height: 1000px;
+     padding-top: 10%;
+     
+}
+#powerful{
+    color: rgb(244, 196 , 96);
+}
+#write{
+    font-size: 500%;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#advert{
+    display: flex;
+}
+#adv{
+    transform: translateY(-80%);
+    margin-left: 60%;
+}
+#man{
+    margin-left: 35%;
+    transform: translateY(-150%);
+    
+}
+#GB{
+    color: aliceblue;
+    font-size: 200%;
+    margin-left: 10%;
+    transform: translateY(-80%);
+   
+}
+.button{
+    transform: translateY(-1080%);
+    margin-left: 12%;
+    
+}
+.buttons{
+    padding: 25px;
+
+}
+#page{
+    background-color: rgb(139, 208,205);
+}
+#advtg{
+    margin-left: 35%;
+    font-size: 300%;
+    font-weight: bolder;
+}
+#body2{
+    background-color: whitesmoke;
+    padding-top: 3%;
+    height: 1500px;
+}
+#topic{
+    color: rgb(212, 148, 89);
+}
+.logos{
+    zoom: 10%;
+}
+.title{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#part2{
+    display: flex;
+    gap: 12%;
+    margin-left: 10%;
+}
+.content{
+    font-weight: bold;
+    font-size: larger;
+    color: darkslategrey;
+}
+#app{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+#expert{
+    font-weight: bolder;
+    font-size: 400%;
+}
+#analytics{
+    color: rgb(124, 86, 3);
+}
+#caption{
+    font-size: x-large;
+}
+.check{
+    zoom: 8%;
+}
+#available{
+    margin-left: 60%;
+    transform: translateY(-115%);
+}
+.tick{
+    font-size: x-large;
+    font-weight: bolder;
+}
+#body3{
+    background-color: rgb(83, 13, 83);
+    padding-top: 10%;
+    height: 380px;
+}
+#on{
+    background-color: aqua;
+    color: black;
+    padding: 15px;
+}
+#seamless{
+    font-size: 400%;
+    margin-left: 32%;
+    color: whitesmoke;
+    font-weight: bolder;
+    transform: translateY(-280%);
+}
+#intergrate{
+    color: rgb(124, 86, 3);
+}
+#searching{
+    color: aliceblue;
+    font-size: 200%;
+    margin-left: 25%;
+    transform: translateY(-280%);
+
+}
+#explore{
+    background-color: rgb(254, 201, 98);
+    color: black;
+    margin-left: 32%;
+    transform: translateY(-600%);
+    border-radius: 16%;
+    padding: 20px;
+}
+#machine{
+    transform: translateY(-80%);
+}
+#body4{
+    background-color: rgb(254, 201, 98);
+    padding-top: 10%;
+    height: 400px;
+}
+#blog{
+    font-size: 300%;
+    font-weight: bolder;
+    transform: translateY(-400%);
+
+}
+#highlights{
+    color: blue;
+}
+#view{
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+    margin-left: 85%;
+    transform: translateY(-450%);
+}
+.pics{
+    zoom: 70%;
+    border-radius: 30px;
+}
+#finals{
+    display: flex;
+    gap: 5%;
+    transform: translateY(-70%);
+    margin-left: 3%;
+}
+#lady{
+    margin-left: 13%;
+    transform: translateY(-30%);
+}
+#ladyb{
+    background-color: aliceblue;
+    padding-top: 10%;
+    transform: translateY(-44%);
+
+}
+
+
+@media  all and (min-width: 280px) and (max-width: 1024px) {
+    #mylogo{
+        width: 70px;
+        height: 70px;
+    }
+    #navbar{
+        background-color: #0275dd;
+        height: 100px;
+    }
+#phone{
+    width: 100px;
+    height: 100px;
+}
+    
+
+    
+    .nav{
+        font-weight: bold;
+        font-size: smaller;
+    }
+    #home{
+        text-decoration: underline;
+    }
+    #writings{
+        display: flex;
+        gap: 5%;
+        margin-left: 5%;
+        flex-wrap: wrap;
+    }
+    button{
+        background-color: blueviolet;
+        font-weight: bold;
+        font-size: xx-small;
+        margin-top: 1%;
+        color: aliceblue;
+        border-radius: 16px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    #car{
+        height: 100px;
+        width: 100px;
+    }
+    #wheel{
+        display: flex;
+        gap: 1%;
+        margin-left: 15%;
+        margin-top: 1%;
+        flex-wrap: wrap;
+       
+    }
+    #stealth{
+        font-weight: bold;
+        font-size: xx-small;
+        color: aliceblue;
+    }
+    #body{
+         background-color: rgb(0,62,71);
+         height: 1000px;
+         padding-top: 10%;
+         zoom: 50%;
+         
+    }
+    #powerful{
+        color: rgb(244, 196 , 96);
+    }
+    #write{
+        font-size: xx-small;
+        color: aliceblue;
+        font-weight: bolder;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    #advert{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #adv{
+        transform: translateY(-80%);
+        margin-left: 60%;
+    }
+    #man{
+        margin-left: 35%;
+        transform: translateY(-150%);
+        
+    }
+    #GB{
+        color: aliceblue;
+        font-size: xx-small;
+        margin-left: 10%;
+        transform: translateY(-80%);
+       
+    }
+    .button{
+        transform: translateY(-1080%);
+        margin-left: 12%;
+        
+    }
+    .buttons{
+        padding: 25px;
+    
+    }
+    #page{
+        background-color: rgb(139, 208,205);
+    }
+    #advtg{
+        margin-left: 35%;
+        font-size: xx-small;
+        font-weight: bolder;
+    }
+    #body2{
+        background-color: whitesmoke;
+        padding-top: 3%;
+        height: 1500px;
+    }
+    #topic{
+        color: rgb(212, 148, 89);
+    }
+    .logos{
+        zoom: 10%;
+    }
+    .title{
+        font-weight: bolder;
+        font-size: xx-small;
+    }
+    #part2{
+        display: flex;
+        gap: 12%;
+        margin-left: 10%;
+        flex-wrap: wrap;
+    }
+    .content{
+        font-weight: bold;
+        font-size: xx-small;
+        color: darkslategrey;
+    }
+    #app{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    #expert{
+        font-weight: bolder;
+        font-size: 400%;
+    }
+    #analytics{
+        color: rgb(124, 86, 3);
+    }
+    #caption{
+        font-size: xx-small;
+    }
+    .check{
+        zoom: 8%;
+    }
+    #available{
+        margin-left: 60%;
+        transform: translateY(-115%);
+    }
+    .tick{
+        font-size: xx-small;
+        font-weight: bolder;
+    }
+    #body3{
+        background-color: rgb(83, 13, 83);
+        padding-top: 10%;
+        height: 380px;
+    }
+    #on{
+        background-color: aqua;
+        color: black;
+        padding: 15px;
+    }
+    #seamless{
+        font-size: xx-small;
+        margin-left: 32%;
+        color: whitesmoke;
+        font-weight: bolder;
+        transform: translateY(-280%);
+    }
+    #intergrate{
+        color: rgb(124, 86, 3);
+    }
+    #searching{
+        color: aliceblue;
+        font-size: xx-small;
+        margin-left: 25%;
+        transform: translateY(-280%);
+    
+    }
+    #explore{
+        background-color: rgb(254, 201, 98);
+        color: black;
+        margin-left: 32%;
+        transform: translateY(-600%);
+        border-radius: 16%;
+        padding: 20px;
+    }
+    #machine{
+        transform: translateY(-80%);
+    }
+    #body4{
+        background-color: rgb(254, 201, 98);
+        padding-top: 10%;
+        height: 400px;
+    }
+    #blog{
+        font-size: xx-small;
+        font-weight: bolder;
+        transform: translateY(-400%);
+    
+    }
+    #highlights{
+        color: blue;
+    }
+    #view{
+        background-color: yellow;
+        color: black;
+        padding: 20px;
+        margin-left: 85%;
+        transform: translateY(-450%);
+    }
+    .pics{
+        zoom: 70%;
+        border-radius: 30px;
+    }
+    #finals{
+        display: flex;
+        gap: 5%;
+        transform: translateY(-70%);
+        margin-left: 3%;
+        flex-wrap: wrap;
+    }
+    #lady{
+        margin-left: 13%;
+        transform: translateY(-30%);
+    }
+    #ladyb{
+        background-color: aliceblue;
+        padding-top: 10%;
+        transform: translateY(-44%);
+    
+    }
+    
+    
+    
+
+
+
+}
